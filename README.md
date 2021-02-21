@@ -57,6 +57,9 @@ This would be - in most cases - the oracle client in different flavors / version
 "install" contains the install script. "data" is the actual directory where the extracted binaries will live.
 As far as possible, the binaries are downloaded "on the fly" using git clone from the official repository.
 
+# How to start the tool
+1. Unzip
+2. ./go
 
 # Credits
 Thanks to 
