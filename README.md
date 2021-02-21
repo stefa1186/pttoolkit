@@ -6,6 +6,7 @@ Welcome to the pttoolkit. This small project is an attempt to create a small swi
 It's supposed to include all most commonly used tools to diagnose performance and tackle performance tuning problems.
 
 # Directory structure
+```
    |-contrib
    |---dgiles
    |-----swingbench
@@ -43,6 +44,7 @@ It's supposed to include all most commonly used tools to diagnose performance an
    |-----bin
    |-----lib
    |-------ext
+```
 
 Main points are
 - Under oracle/ are all binary files (installation files as well as extracted ones) which come from the oracle website.
