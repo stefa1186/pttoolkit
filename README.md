@@ -4,9 +4,6 @@ Oracle Performance Tuning Toolkit
 # Author
 My name is Stefano Trallori. You can find me on [Linkedin](https://www.linkedin.com/in/stefanotrallori/)
 
-# Contributors
-@tpoder
-
 # General information
 Welcome to the pttoolkit. This small project is an attempt to create a small swiss-army-knife-like tool for Oracle performance tuning on linux and linux-like systems.
 It's supposed to include all most commonly used tools to diagnose performance and tackle performance tuning problems.
@@ -60,3 +57,12 @@ This would be - in most cases - the oracle client in different flavors / version
 "install" contains the install script. "data" is the actual directory where the extracted binaries will live.
 As far as possible, the binaries are downloaded "on the fly" using git clone from the official repository.
 
+
+# Credits
+Thanks to 
+- Tanel Poder (https://tanelpoder.com)
+- Dominic Giles (https://www.dominicgiles.com/index.html)
+- Kevin Closson (https://kevinclosson.net)
+- Mauro Pagano (https://mauro-pagano.com)
+
+Without you, none of this would have been possible.
