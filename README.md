@@ -1,5 +1,8 @@
 # pttoolkit
-Performance Tuning toolkit
+Oracle Performance Tuning Toolkit
+
+# Author
+My name is Stefano Trallori. You can find me on [Linkedin](https://www.linkedin.com/in/stefanotrallori/)
 
 # General information
 Welcome to the pttoolkit. This small project is an attempt to create a small swiss-army-knife-like tool for Oracle performance tuning on linux and linux-like systems.
