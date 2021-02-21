@@ -8,7 +8,7 @@
 ##
 ##
 ##
-set -x
+#set -x
 
 typeset -x v_startTimestamp="$(date +%Y%m%d_%H%M%S)"
 typeset -x v_hostname="$(hostname)"
