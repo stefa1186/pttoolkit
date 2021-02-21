@@ -1,0 +1,10 @@
+DB19C =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = oel7ora19c.stefano)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = DB19C)
+    )
+  )
+

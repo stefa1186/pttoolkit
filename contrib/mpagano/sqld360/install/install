@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ -d "${v_contribBase}"/mpagano/sqld360/data ]; then
+  rm -rf "${v_contribBase}"/mpagano/sqld360/data
+  mkdir -p "${v_contribBase}"/mpagano/sqld360/data
+else
+  mkdir -p "${v_contribBase}"/mpagano/sqld360/data
+fi
+git clone https://github.com/mauropagano/sqld360.git "${v_contribBase}"/mpagano/sqld360/data
+

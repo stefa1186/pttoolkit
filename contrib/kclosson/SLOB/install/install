@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ -d "${v_contribBase}"/kclosson/SLOB/data ]; then
+  rm -rf "${v_contribBase}"/kclosson/SLOB/data
+  mkdir -p "${v_contribBase}"/kclosson/SLOB/data
+else
+  mkdir -p "${v_contribBase}"/kclosson/SLOB/data
+fi
+git clone https://github.com/therealkevinc/SLOB_distribution.git "${v_contribBase}"/kclosson/SLOB/data
+

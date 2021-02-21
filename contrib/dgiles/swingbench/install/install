@@ -1,0 +1,3 @@
+#!/bin/bash
+curl -L https://github.com/domgiles/swingbench-public/releases/download/production/swingbenchlatest.zip -o "${v_contribBase}"/dgiles/swingbench/data/swingbenchlatest.zip
+unzip -o "${v_contribBase}"/dgiles/swingbench/data/swingbenchlatest.zip -d "${v_contribBase}"/dgiles/swingbench/data 

@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ -d "${v_contribBase}"/tpoder/tpt-oracle/data ]; then
+  rm -rf "${v_contribBase}"/tpoder/tpt-oracle/data
+  mkdir -p "${v_contribBase}"/tpoder/tpt-oracle/data
+else
+  mkdir -p "${v_contribBase}"/tpoder/tpt-oracle/data
+fi
+git clone https://github.com/tanelpoder/tpt-oracle.git "${v_contribBase}"/tpoder/tpt-oracle/data

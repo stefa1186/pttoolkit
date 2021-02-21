@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ -d "${v_contribBase}"/tpoder/psnapper/data ]; then
+  rm -rf "${v_contribBase}"/tpoder/psnapper/data
+  mkdir -p "${v_contribBase}"/tpoder/psnapper/data
+else
+  mkdir -p "${v_contribBase}"/tpoder/psnapper/data
+fi
+git clone https://github.com/tanelpoder/psnapper.git "${v_contribBase}"/tpoder/psnapper/data
